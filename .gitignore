@@ -1,4 +1,5 @@
 # OS and environment
+.venv/
 .DS_Store
 *.log
 *.env

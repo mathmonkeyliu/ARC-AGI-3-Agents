@@ -14,6 +14,9 @@ from .templates.openclaw_agent import OpenClaw
 from .templates.random_agent import Random
 from .templates.reasoning_agent import ReasoningAgent
 from .templates.smolagents import SmolCodingAgent, SmolVisionAgent
+from .templates.test1 import Test1
+from .templates.test2 import Test2
+from .templates.test3 import Test3
 
 load_dotenv()
 
@@ -44,6 +47,9 @@ __all__ = [
     "ReasoningAgent",
     "SmolCodingAgent",
     "SmolVisionAgent",
+    "Test1",
+    "Test2",
+    "Test3",
     "Agent",
     "Recorder",
     "Playback",
