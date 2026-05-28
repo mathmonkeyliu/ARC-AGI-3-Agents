@@ -20,4 +20,5 @@ class Test3(Agent):
         action = random.choice([a for a in GameAction if a is not GameAction.RESET])
         if action.is_complex():
             action.set_data({"x": random.randint(0, 63), "y": random.randint(0, 63)})
+        action.reasoning = "no reason"
         return action
